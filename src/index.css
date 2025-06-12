@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.figtree-font {
+  font-family: "Figtree", sans-serif;
+  font-size: 17.7px;
+}
