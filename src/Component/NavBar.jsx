@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="drawer drawer-end">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
-                <nav className="w-9/12 mx-auto flex items-center justify-between py-4">
+                <nav className="w-11/12 md:w-9/12 mx-auto flex items-center justify-between py-4">
                     <div className="flex items-center gap-4">
                         {/* Hamburger for mobile */}
                         <div className="lg:hidden">

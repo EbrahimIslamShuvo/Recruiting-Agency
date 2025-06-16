@@ -10,8 +10,8 @@ const Hero = () => {
     return (
         <div>
             <div className="">
-                <div className="flex flex-col md:flex-row items-center justify-between lg:w-9/12 md:w-11/12 w-9/12 mx-auto mt-10 md:-mt-0 lg:mt-0">
-                    <div className="flex flex-col items-start gap-5 lg:w-7/12 md:w-6/12">
+                <div className="flex flex-col md:flex-row items-center justify-between lg:w-9/12 md:w-11/12 w-11/12 mx-auto mt-10 md:-mt-0 lg:mt-0">
+                    <div className="flex flex-col items-start gap-5 lg:w-7/12 md:w-6/12 ">
                         <SubHeader name={"Staffing Power Your Success"} color={"#FF7A01"}></SubHeader>
                         <div className=" w-9/12 md:w-12/12 lg:w-10/12 -mt-4 ">
                             <Header name={"Growth Exceptional Talent Let's Build Success Together"}></Header>
@@ -34,11 +34,11 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-in-up" className=" relative lg:w-5/12 pb-20">
+                    <div data-aos="zoom-in-up" className=" relative lg:w-5/12 pb-20 mt-15 md:mt-0">
                         <img className='' src="https://html.vikinglab.agency/recrute/assets/img/bg/hero1-main-bg.png" alt="" />
-                        <img className='lg:ml-10 md:ml-10 lg:-mt-121 md:-mt-100 w-90 md:w-100 lg:w-120 ml-9.5 -mt-90 rounded-b-full' src="https://html.vikinglab.agency/recrute/assets/img/hero/hero1-main-img.png" alt="" />
-                        <img className=' absolute lg:top-12 md:top-15 lg:right-30 md:right-18 top-5 right-12' src="https://html.vikinglab.agency/recrute/assets/img/shapes/hero1-shape.png" alt="" />
-                        <img className=' lg:-mt-50 -mt-40 lg:-ml-30 -ml-15 lg:w-7/12 w-2/4 animate-bounce' src="https://html.vikinglab.agency/recrute/assets/img/shapes/review-img.png" alt="" />
+                        <img className='lg:ml-10 md:ml-10 lg:-mt-121 ml-10.5 md:-mt-100 w-85 md:w-100 lg:w-120 -mt-85.5 rounded-b-full' src="https://html.vikinglab.agency/recrute/assets/img/hero/hero1-main-img.png" alt="" />
+                        <img className=' absolute lg:top-12 md:top-15 lg:right-30 md:right-18 top-5 right-7' src="https://html.vikinglab.agency/recrute/assets/img/shapes/hero1-shape.png" alt="" />
+                        <img className=' lg:-mt-50 -mt-40 lg:-ml-30 md:-ml-15 -ml-8 lg:w-7/12 w-2/4 animate-bounce' src="https://html.vikinglab.agency/recrute/assets/img/shapes/review-img.png" alt="" />
                     </div>
                 </div>
                 <marquee className="bg-black">

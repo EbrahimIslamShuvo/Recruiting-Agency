@@ -15,7 +15,7 @@ const WhyChooseUS = () => {
                 <div className="my-15">
                     <div className="flex flex-col lg:flex-row items-start gap-5 lg:w-9/12 w-11/12 mx-auto">
                         <div className="flex gap-5">
-                            <div className="flex md:flex-col gap-6 items-start figtree-font">
+                            <div className="grid grid-cols-3 md:grid-cols-1 gap-6 items-start figtree-font">
                                 <div data-aos="fade-up-right" className="group">
                                     <div className="flex flex-col items-center gap-12 bg-gray-200/75 group-hover:bg-[#FF7A01] group-hover:-translate-y-2 rounded-lg duration-500 group-hover:text-white p-7">
                                         <LuFileChartColumn className='text-5xl group-hover:rotate-y-180 duration-700' />
@@ -45,11 +45,12 @@ const WhyChooseUS = () => {
                                 </div>
                             </div>
                             <div data-aos="flip-left" className="hidden md:block lg:hidden">
-                                <img src="https://html.vikinglab.agency/recrute/assets/img/others/choose1-img.png" alt="" />
+                                <img className='' src="https://html.vikinglab.agency/recrute/assets/img/others/choose1-img.png" alt="" />
                             </div>
                         </div>
                         <div data-aos="flip-left" className="md:hidden lg:block">
-                            <img src="https://html.vikinglab.agency/recrute/assets/img/others/choose1-img.png" alt="" />
+                            <img className="w-full h-auto" src="https://html.vikinglab.agency/recrute/assets/img/others/choose1-img.png" alt="..." />
+
                         </div>
                         <div className="lg:w-5/12 flex flex-col items-start gap-5 mt-8">
                             <SubHeader name={"Why Choose Us"}></SubHeader>
